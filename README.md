@@ -102,8 +102,8 @@ cp kisql-1.0-SNAPSHOT-jar-with-dependencies.jar kisql /usr/local/bin/
 15. Update ~/.bash_profile to include Kinetica parameters for KiSQL.
 ```
 export KI_HOST="xxx.xxx.xxx.xxx"
-KI_USER="username"
-KI_PWD="password"
+export KI_USER="username"
+export KI_PWD="password"
 ```
 Now you can run kisql anywhere in your CLI. 
 To know all avaiable kisql command options, run the command below.
