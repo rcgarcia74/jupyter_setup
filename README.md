@@ -89,9 +89,9 @@ Make sure to reload your changes.
 source ~/.bash_profile
 ```
 
-12. We will also need KiSQL. So make sure you have installed git on your host. Run the install.
+12. We will also need KiSQL. So make sure you have installed git on your host. Run the install. Make changes to the command to use your own account and the correct repo.
 ```
-git clone https://rommelg@bitbucket.org/gisfederal/kisql.git
+git clone https://your_user)_name@bitbucket.org/repo/kisql.git
 ```
 
 13. Change directory into kisql then build kisql.
