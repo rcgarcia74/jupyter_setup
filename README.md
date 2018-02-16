@@ -14,6 +14,10 @@ Make sure to re-load the latest changes by running the command below.
 ```
 source ~/.bash_profile
 ```
+Check to see if you are now using the Anaconda Python 
+```
+which python
+```
 
 3. You cannot load data into Kinetica if you are using pandas-datareader (0.6.0). Use an older version which is 0.5.0. Go to the
 site below and download it and put it to your local filesystem. 
