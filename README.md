@@ -112,7 +112,7 @@ To know all avaiable kisql command options, run the command below.
 kisql -help
 ```
 
-
+Now you can open Anaconda Navigator and launch Jupyter.
 
 
 
