@@ -73,6 +73,11 @@ https://github.com/kineticadb/kinetica-api-python/tree/release/v6.1.0
 export PATH=/Users/rgarcia/anaconda2/bin:/Users/rgarcia/Documents/Training/UDF/kinetica-api-python-release-v6.1.0/gpudb:$PATH
 ```
 
+Make sure to reload your changes.
+```
+source ~/.bash_profile
+```
+
 11. Change directory to the Python API client folder and set it up.
 ```
 cd /Users/rgarcia/Documents/Training/UDF/kinetica-api-python-release-v6.1.0
@@ -82,11 +87,6 @@ Continue finishing the install and also install avro.
 ```
 sudo pip install .
 sudo pip install avro
-```
-
-Make sure to reload your changes.
-```
-source ~/.bash_profile
 ```
 
 12. We will also need KiSQL. So make sure you have installed git on your host. Run the install. Make changes to the command to use your own account and the correct repo.
