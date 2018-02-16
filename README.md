@@ -96,7 +96,7 @@ mvn clean package
 
 14. A jar file should have been created under target folder. Run the command below.
 ```
-cp kisql-1.0-SNAPSHOT-jar-with-dependencies.jar kisql /usr/local/bin/
+cp kisql-1.0-SNAPSHOT-jar-with-dependencies.jar /usr/local/bin/
 ```
 
 15. Update ~/.bash_profile to include Kinetica parameters for KiSQL.
