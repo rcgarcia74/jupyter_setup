@@ -53,7 +53,7 @@ sudo python setup.py install
 pip list | grep pandas
 ```
 
-The output should be something similar below. Ignore the warning for now.
+The output should be something similar below. If uout pandas version is newer, its ok. But you need to maske sure that the pandas-datareader is the exact same version. Ignore the warning for now.
 ```
 Rommels-MBP-2:~ rgarcia$ pip list | grep pandas
 DEPRECATION: The default format will switch to columns in the future. You can use --format=(legacy|columns) (or define a format=(legacy|columns) in your pip.conf under the [list] section) to disable this warning.
