@@ -48,7 +48,7 @@ drwxr-xr-x@  8 rgarcia  staff   256 Jul 25  2017 pandas_datareader.egg-info
 sudo python setup.py install
 ```
 
-7. To check if pandas-reader was successfully installed, run the command below.```
+7. To check if pandas-reader was successfully installed, run the command below.
 ```
 pip list | grep pandas
 ```
