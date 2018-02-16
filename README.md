@@ -80,11 +80,6 @@ source ~/.bash_profile
 
 11. Change directory to the Python API client folder and set it up.
 ```
-cd /Users/rgarcia/Documents/Training/UDF/kinetica-api-python-release-v6.1.0
-sudo python setup.py install
-```
-Continue finishing the install and also install avro.
-```
 sudo pip install .
 sudo pip install avro
 ```
